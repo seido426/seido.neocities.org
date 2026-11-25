@@ -2,8 +2,27 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
-body {
-  background-color: white;
-  color: black;
-  font-family: Verdana;
-}
+      body {
+        font-family:'Courier New', Courier, monospace;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: lavender;
+      }
+      h1 {
+        text-align: center;
+      }
+      .topbar {
+        text-align: center;
+        border-top: 2px dotted;
+        border-bottom: 2px dotted;
+        word-spacing: 20px;
+        padding: 10px
+      }
+      .maintext {
+        border: 7px ridge #b64dc9;
+        padding: 10px;
+      }
+      a {
+        color: purple;
+      }
